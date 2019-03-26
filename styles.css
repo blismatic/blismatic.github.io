@@ -93,8 +93,11 @@ html, body{
 }
 
 .s3.container2{
+    display: flex;
     flex-flow: row nowrap;
     height: 195px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .s3.container3{
@@ -106,6 +109,19 @@ html, body{
     height: 233px;
 }
 
+.s3-test-button{
+    width: 449px;
+    height: 92px;
+    background-color: var(--purple);
+    color: var(--light1);
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    border-radius: 46px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
 .s4{
     border: 1px solid white;
 }
@@ -115,10 +131,25 @@ html, body{
 }
 
 .s4.container2{
+    display: flex;
     flex-flow: column nowrap;
     height: 834px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .s4.container3{
     height: 130px;
+}
+
+.s4-about-text-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1250px;
+    height: 755px;
+    color: var(--light1);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 36px;
+    font-family: Oxygen;
 }

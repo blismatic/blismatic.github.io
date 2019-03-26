@@ -116,3 +116,22 @@ html, body{
     z-index: 0;
     transform: translate(463px, -1100px);
 }
+
+.s4{
+    border: 1px solid white;
+}
+
+.s4.container1{
+    flex-direction: column;
+    height: 115px;
+}
+
+.s4.container2{
+    flex-flow: column nowrap;
+    height: 834px;
+}
+
+.s4.container3{
+    flex-direction: column;
+    height: 130px;
+}

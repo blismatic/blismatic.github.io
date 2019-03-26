@@ -18,7 +18,6 @@ html, body{
 }
 
 .s1.container1{
-    flex-direction: column;
     height: 248px;
 }
 
@@ -32,7 +31,6 @@ html, body{
 }
 
 .s1.container3{
-    flex-direction: column;
     height: 334px;
 }
 
@@ -69,22 +67,20 @@ html, body{
 }
 
 .s2.container1{
-    flex-direction: row;
     height: 178px;
 }
 
 .s2.container2{
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     height: 211px;
 }
 
 .s2.container3{
-    flex-direction: column;
+    flex-flow: column nowrap;
     height: 551px;
 }
 
 .s2.container4{
-    flex-direction: column;
     height: 141px;
 }
 
@@ -93,28 +89,21 @@ html, body{
 }
 
 .s3.container1{
-    flex-direction: column;
     height: 95px;
 }
 
 .s3.container2{
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     height: 195px;
 }
 
 .s3.container3{
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     height: 558px;
 }
 
 .s3.container4{
-    flex-direction: column;
     height: 233px;
-}
-
-.s1-img-top-right{
-    z-index: 0;
-    transform: translate(463px, -1100px);
 }
 
 .s4{
@@ -122,7 +111,6 @@ html, body{
 }
 
 .s4.container1{
-    flex-direction: column;
     height: 115px;
 }
 
@@ -132,6 +120,5 @@ html, body{
 }
 
 .s4.container3{
-    flex-direction: column;
     height: 130px;
 }

@@ -1,5 +1,6 @@
 :root{
     --purple: #4B3EC1;
+    --purple-darker: #231D58;
     --orange: #8E3E32;
     --light1: #FDFFFE;
     --light2: #666479;
@@ -49,7 +50,7 @@ html, body{
     padding: 0px 0px 0px 0px;
 }
 
-.s1-about-button{
+/*.s1-about-button{
     width: 346px;
     height: 70px;
     color: var(--light1);
@@ -61,6 +62,38 @@ html, body{
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+
+.s1-about-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.s1-about-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.s1-about-button:hover span {
+    padding-right: 25px;
+}
+
+.s1-about-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.s1-about-button:active {
+    transform: scale(0.99);
+    transition: 250ms;
+}
+
+.s1-about-button:focus {outline: 0;}*/
 
 .s2{
     border: 1px solid white;
@@ -91,11 +124,11 @@ html, body{
 }
 
 .s2-topic-form{
-    width: 449px;
-    height: 92px;
+    width: 488px;
+    height: 102px;
     background-color: transparent;
     border: 2px solid var(--light1);
-    border-radius: 25px;
+    border-radius: 39px;
 }
 
 .s2-generate-button{
@@ -111,12 +144,20 @@ html, body{
     padding: 0px 0px 0px 0px;
 }
 
+.s2-generate-button:hover{
+    cursor: pointer;
+}
+
+.s2-generate-button:focus {outline: 0;}
+
 .s2-poet-dropdown{
+    width: 488px;
+    height: 102px;
     color: var(--light1);
     background-color: transparent;
     font-size: 25px;
     letter-spacing: 0.2em;
-    border-radius: 46px;
+    border-radius: 39px;
     border: 2px solid var(--light1);
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -168,6 +209,29 @@ html, body{
     border: none;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    box-shadow: 0px 4px 0px var(--purple-darker);
+}
+
+.s3-test-button:hover{
+    cursor: pointer;
+}
+
+.s3-test-button:focus{
+    outline: 0;
+}
+
+.s3-test-button:active{
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+.s3-input-form{
+    width: 1096px;
+    height: 428px;
+    background-color: transparent;
+    color: var(--light1);
+    border: 2px solid var(--light1);
+    border-radius: 46px;
 }
 
 .s4{

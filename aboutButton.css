@@ -1,0 +1,44 @@
+.s1-about-button{
+    width: 346px;
+    height: 70px;
+    color: var(--light1);
+    background-color: var(--purple);
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    border-radius: 35px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.s1-about-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.s1-about-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.s1-about-button:hover span {
+    padding-right: 25px;
+}
+
+.s1-about-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.s1-about-button:active {
+    transform: scale(0.99);
+    transition: 250ms;
+}
+
+.s1-about-button:focus {outline: 0;}

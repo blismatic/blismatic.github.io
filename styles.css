@@ -71,17 +71,62 @@ html, body{
 }
 
 .s2.container2{
+    display: flex;
     flex-flow: row nowrap;
     height: 211px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .s2.container3{
+    display: flex;
     flex-flow: column nowrap;
     height: 551px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .s2.container4{
     height: 141px;
+}
+
+.s2-topic-form{
+    width: 449px;
+    height: 92px;
+    background-color: transparent;
+    border: 2px solid var(--light1);
+    border-radius: 25px;
+}
+
+.s2-generate-button{
+    width: 449px;
+    height: 92px;
+    background-color: var(--orange);
+    color: var(--light1);
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    border-radius: 46px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.s2-poet-dropdown{
+    color: var(--light1);
+    background-color: transparent;
+    font-size: 25px;
+    letter-spacing: 0.2em;
+    border-radius: 46px;
+    border: 2px solid var(--light1);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.s2-output-box{
+    color: var(--light1);
+    background-color: transparent;
+    border: 2px solid var(--light1);
+    border-radius: 25px;
 }
 
 .s3{
@@ -101,8 +146,11 @@ html, body{
 }
 
 .s3.container3{
+    display: flex;
     flex-flow: row nowrap;
     height: 558px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .s3.container4{
